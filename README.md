@@ -3,6 +3,11 @@
 Most of the data was scraped from the FRED API using HTTP requests, so the dataset was always very clean. I used a heatmap to visualize the linear relationships between the variables before fitting a model.  
 ![Heatmap](https://i.imgur.com/0fKN1Fw.png)
 
+## Models Used 
+
+## Model Predictions
+![Predictions](https://i.imgur.com/5JhOKpj.png)
+
 ### Dataset Codebook
 *Year* - Election Year\
 *Name* - Candidate's Name\
@@ -14,6 +19,6 @@ Most of the data was scraped from the FRED API using HTTP requests, so the datas
 *Democrat Senate* - If the senate has a democratic party majority\
 *Q2 CPI* - Indicator of inflation* (FRED Code = CPIAUCSL)\
 *Q2 Prod* - Industrial Production Index, Percent Change, Quarterly, Seasonally Adjusted*\
-*$SPY Annual % Change* - Annual % Change of the S&P 500 Index (For election year this value is from January - September)
-*Dem Vote %* - Vote share of the democratic party presidential nominee
+*$SPY Annual % Change* - Annual % Change of the S&P 500 Index (For election year this value is from January - September)\
+*Dem Vote %* - Vote share of the democratic party presidential nominee\
 *Source: FRED*
