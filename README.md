@@ -1,5 +1,7 @@
 # 2020-Election-Prediction
 
+![Heatmap](https://imgur.com/a/SxYYCAY)
+
 ### Dataset Codebook
 *Year* - Election Year\
 *Name* - Candidate's Name\
