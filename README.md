@@ -30,4 +30,4 @@ The Associated Press, at the time of writing this, says that President Elect Bid
 *Q2 Prod* - Industrial Production Index, Percent Change, Quarterly, Seasonally Adjusted*\
 *$SPY Annual % Change* - Annual % Change of the S&P 500 Index (For election year this value is from January - September)\
 *Dem Vote %* - Vote share of the democratic party presidential nominee\
-*Source: FRED*
+**Source: FRED*
