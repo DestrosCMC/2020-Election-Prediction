@@ -1,6 +1,7 @@
 # 2020-Election-Prediction
-
-![Heatmap](https://imgur.com/a/SxYYCAY)
+## Data Collection and Analysis
+Most of the data was scraped from the FRED API using HTTP requests, so the dataset was always very clean. I used a heatmap to visualize the linear relationships between the variables before fitting a model.  
+![Heatmap](https://i.imgur.com/0fKN1Fw.png)
 
 ### Dataset Codebook
 *Year* - Election Year\
