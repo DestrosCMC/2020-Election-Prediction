@@ -4,11 +4,11 @@ Most of the data was scraped from the FRED API using HTTP requests, so the datas
 ![Heatmap](https://i.imgur.com/0fKN1Fw.png)
 
 ## Models Used 
-**K-Nearest Neighbors (KNN Regressor)**/
-A KNN-R model was chosen because I assumed that feature similarity existed for each year's election result. This would allow the KNN regressor to make accurate predictions on out of sample data./
+**K-Nearest Neighbors (KNN Regressor)** \
+A KNN-R model was chosen because I assumed that feature similarity existed for each year's election result. This would allow the KNN regressor to make accurate predictions on out of sample data.\
 I first attempted to fit a KNN classifier model to the data and have the output a boolean of elected or not elected, but the problem I ran into was that the model returned false for both candidates this year. Given how close some elections have been this was not a surprise, but meant I had to shift my goal from a boolean output to a numerical one. 
 
-**Random Forests Regressor**
+**Random Forests Regressor**\
 I chose random forests regression (rf) because I wanted to use a different, more powerful technique (compared to KNN). I also kept in mind that rf has low bias and moderate variance.
 
 ## Model Predictions
